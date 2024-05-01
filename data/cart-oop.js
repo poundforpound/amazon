@@ -48,7 +48,7 @@ function Cart(keyToLocalStorage) {
         }
       });
       this.cartItems = newCart;
-      saveToLocalStorage();
+      this.saveToLocalStorage();
     },
     updateDeliveryOption(productId, deliveryOptionId) {
       let matchingItem;
